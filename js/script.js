@@ -4,35 +4,19 @@
 // Created on: May 2024
 // This file contains the JS functions for index.html
 
-/**
- * Get API info.
-*/
-// code from: https://www.youtube.com/watch?v=670f71LTWpM
-
-const getImage = async (URLAddress) => {
+"use strict"
+  
+async function getTemperature() {
   try {
-    const result = await fetch(URLAddress)
-    const jsonData = await result.json()
-    console.log(jsonData)
-    document.getElementById("api-image").innerHTML =
-    '<img src="' + 
-      jsonData.url + 
-      '" alt="API image" class="center" ' +
-      '>'
-    if (jsonData.artist_url != "none") {
-      document.getElementById("image-artist").innerHTML =
-      "<p>Artist: " +
-      '<a href="' +
-      jsonData.artist_url +
-      '">' +
-      jsonData.artist +
-      "</a>"
-  } else {
-    document.getElementById("image-artist").innerHTML = "<p>Artist: unknown</p>"
-  }
-  } catch (err) {
-    console.log(err)
+    const resultJSON = await fetch("https://cat-fact.herokuapp.com/facts")
+    const jsonData = await resultJSON.json()
+    //console.log(jsonData)
+    const kelvinToCelsius = (kelvin) => kelvin - 273.15;
+    document.getElementById('result').innerHTML = kelvinToCelsius
+    const firstDataSet = jsonData[0]
+    const textDataSet = firstDataSet.text
+    console.log(textDataSet)
+  } catch (error) {
+    console.error(error)
   }
 }
-
-getImage("https://api.catboys.com/img")
