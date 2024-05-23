@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>API</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-  </head>
-  <body>
-    <script src="./js/script.js"></script>
-    <form action="#" method="get" id="form_API">
-      <label for="kelvinInput">Enter temperature in Kelvin:</label>
-      <br />
-      <br />
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Weather webpage using API" />
+  <meta name="keywords" content="mths, ics2o" />
+  <meta name="author" content="George, Khalil" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-green.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  <link rel="manifest" href="site.webmanifest" />
+ <title>API</title>
+</head>
+<body>
+  <script src="./js/script.js"></script>
+    <h3>Weather converting</h3>
+    <h5>Enter temperature in Kelvin:</h5>
+     <br />
+     <input type="number" placeholder="enter temperature">
+     <br />
+     <br />
+    <form action="#">
+      <button onclick="getCatFact()" type="button" class="button">
+        Enter
+      </button>
     </form>
-    <button onclick="getTemperature()" type="button">Get Info</button>
-    <br />
-    <br />
-    <div id="result"></div>
+    <div id="cat-fact-number"></div>
+    <div id="cat-fact"></div>
   </body>
 </html>
