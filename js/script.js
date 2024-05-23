@@ -4,31 +4,33 @@
 // Created on: May 2024
 // This file contains the JS functions for index.html
 
-"use strict"
+"use strict";
 
-/**
- * This function gets the Cat fact.
- * The "async" is there beause it wil take time for the internet to return the value
- */
-async function getCatFact() {
-  // the "try" id here because the internet may not be working
-  // it is like an "if ... else" statement"
+// Function to fetch weather data from OpenWeatherMap API
+async function getWeather() {
+  const apiKey = 'YOUR_API_KEY'; // Replace 'YOUR_API_KEY' with your OpenWeatherMap API key
+  const city = 'YOUR_CITY'; // Replace 'YOUR_CITY' with the desired city name
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+
   try {
-    const resultJSON = await fetch("https://cat-fact.herokuapp.com/facts")
-    const jsonData = await resultJSON.json()
-    //console.log(jsonData)
+    const response = await fetch(apiUrl);
+    const data = await response.json();
+    console.log(data);
 
-    // NOTE: there are 5 (0 to 4) cat facts
-    const randomFactNumber = Math.floor(Math.random() * 5)
-    const firstDataSet = jsonData[randomFactNumber]
-    const textDataSet = firstDataSet.text
-    console.log(textDataSet)
+    // Extract relevant weather data
+    const weatherDescription = data.weather[0].description;
+    const weatherIconCode = data.weather[0].icon;
+    const temperatureKelvin = data.main.temp;
 
-    // output
-    // add 1 to random number, since users would see Fact #0 as odd!
-    document.getElementById("Kelvin-temp").innerHTML = "<p>Cat Fact #" + (randomFactNumber + 1) + "</p>"
-    document.getElementById("cat-fact").innerHTML = "<p>" + textDataSet + "</p>"
+    // Update HTML elements with weather data
+    document.getElementById("weather-description").textContent = weatherDescription;
+    document.getElementById("weather-icon").src = `https://openweathermap.org/img/wn/10d@2x${weatherIconCode}.png`;
+    document.getElementById("temperature").textContent = `Temperature: ${temperatureKelvin} K`;
+
   } catch (error) {
-    console.error(error)
+    console.error('Error fetching weather data:', error);
   }
 }
+
+// Initial call to fetch weather data when the page loads
+getWeather();
