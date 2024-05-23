@@ -26,7 +26,7 @@ async function getCatFact() {
 
     // output
     // add 1 to random number, since users would see Fact #0 as odd!
-    document.getElementById("cat-fact-number").innerHTML = "<p>Cat Fact #" + (randomFactNumber + 1) + "</p>"
+    document.getElementById("Kelvin-temp").innerHTML = "<p>Cat Fact #" + (randomFactNumber + 1) + "</p>"
     document.getElementById("cat-fact").innerHTML = "<p>" + textDataSet + "</p>"
   } catch (error) {
     console.error(error)
