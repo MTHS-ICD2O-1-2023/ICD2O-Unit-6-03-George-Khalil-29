@@ -28,7 +28,7 @@ async function getWeather() {
         document.getElementById('weather-icon').src = iconUrl;
 
     } catch (error) {
-        console.error('Error fetching weather data:', error);
+        console.error('catch', error);
     }
 }
 

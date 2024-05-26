@@ -1,17 +1,105 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="443" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="826" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="2" target="3">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="90" y="400"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="310" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="40" y="250" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="450" width="100" height="60" as="geometry"/>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;apiKey&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;'fe1d80&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: initial;&quot;&gt;e&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: initial;&quot;&gt;1&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: initial;&quot;&gt;e103cf&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(165, 214, 255);&quot;&gt;f8c6afd1&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(165, 214, 255);&quot;&gt;90cad23fa5'&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="360" width="192" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="1300" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 10px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;lat&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;45.4211435&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="360" width="165" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="edgeStyle=none;html=1;fontSize=11;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="630" y="544"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 10px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;lon&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;75.6900574&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="360" width="165" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontSize=10;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="610" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 10px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;apiUrl&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;`https://api.openweat&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;hermap.org/data/2.5/weather?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;lat=&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;lat&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&amp;amp;lon=&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;lon&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&amp;amp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;appid=&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;${&lt;/span&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;apiKey&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;&amp;amp;units=metric`&lt;/span&gt;;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="268" y="490" width="315" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="520" y="880" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="680" y="880"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="560" y="900" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; color: rgb(255, 123, 114);&quot;&gt;try&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#79c0ff&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;temperature,&amp;nbsp; description, iconCode, iconUrl&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="810" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontSize=11;" edge="1" parent="1" source="16" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 19px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 14px; color: rgb(255, 123, 114);&quot;&gt;try&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 11px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(121, 192, 255);&quot;&gt;response&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 123, 114);&quot;&gt;await&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(121, 192, 255);&quot;&gt;fetch&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(121, 192, 255);&quot;&gt;apiUrl&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="620" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fontSize=11;" edge="1" parent="1" source="18" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 11px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 14px; line-height: 19px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;try&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;data&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;await&lt;/span&gt; &lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;response&lt;/span&gt;.&lt;span style=&quot;color: rgb(210, 168, 255);&quot;&gt;json&lt;/span&gt;();&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=none;fontSize=10;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="620" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="890" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="322" y="950" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="26" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;Temperature:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;°C&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;Description:&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(121, 192, 255);&quot;&gt;iconUrl&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="272.5" y="1010" width="195" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" edge="1" parent="1" source="30" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="680" y="1240"/>
+                            <mxPoint x="370" y="1240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 123, 114);&quot;&gt;catch&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(230, 237, 243); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255);&quot;&gt;Error&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: initial;&quot;&gt;fetching weather&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(165, 214, 255); background-color: initial;&quot;&gt;&amp;nbsp;data:&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fontSize=11;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="975" width="140" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
